@@ -2,7 +2,6 @@
 #define ITALIANCHEF_H
 
 #include "chef.h"
-
 class italianChef : public chef
 {
 public:

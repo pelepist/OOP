@@ -14,7 +14,6 @@ chef::~chef()
 {
     cout << "in default destructor" << endl;
 }
-
 int chef::makeSalad(int ingredients)
 {
     cout << "in SaladFunction" << endl;
@@ -42,3 +41,4 @@ void chef::setName(string cN)
     cout << "in setter" << endl;
     chefName = cN;
 }
+

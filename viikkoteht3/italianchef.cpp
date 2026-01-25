@@ -32,6 +32,5 @@ int italianChef::makePizza()
     cout << "making pizza" << endl;
     cout << "Amount of flour: " << flour <<" "<< "amount of water: "<< water << endl;
     int pizzaAmount = min(flour / 5, water / 5);
-
     return pizzaAmount;
 }

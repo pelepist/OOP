@@ -2,7 +2,6 @@
 #define CHEF_H
 #include <string>
 using namespace std;
-
 class chef
 {
 public:
